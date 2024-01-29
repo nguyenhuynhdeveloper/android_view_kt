@@ -7,16 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.android_view_kt.R
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [Fragment_1_tuHoc_17.newInstance] factory method to
- * create an instance of this fragment.
- */
 class Fragment1tuHoc17 : Fragment() {
 
     private var param1: String? = null
@@ -39,15 +33,6 @@ class Fragment1tuHoc17 : Fragment() {
     }
 
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment Fragment_2_tuHoc_17.
-         */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             Fragment1tuHoc17().apply {

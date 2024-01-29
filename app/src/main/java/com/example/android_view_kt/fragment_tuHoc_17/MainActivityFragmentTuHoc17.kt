@@ -5,7 +5,7 @@ import android.os.Bundle
 import com.example.android_view_kt.R
 import kotlinx.android.synthetic.main.activity_main_fragment_tu_hoc17.*
 
-class MainActivity_Fragment_tuHoc_17 : AppCompatActivity() {
+class MainActivityFragmentTuHoc17 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_fragment_tu_hoc17)
